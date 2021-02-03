@@ -11,8 +11,10 @@ h1 {text-align: center;}
 
 h3 { text-align: right; margin: 0px;}
 
-span {padding-left: 3em;  padding-right: 3em; padding-top: 3px; padding-bottom: 3px;
-      border-width: 2px; border-color: black; border-style: solid;}
+span {
+      padding-left: 3em;  padding-right: 3em; padding-top: 3px; padding-bottom: 3px;
+      border-width: 1px; border-color: black; border-style: solid;
+    }
 
 p { padding: 10px;  margin: 0;}
 
@@ -27,6 +29,9 @@ p { padding: 10px;  margin: 0;}
   margin: 10px; 
   background-color: rgb(187, 185, 185);
 }
+
+/*.block_name {position: relative; top: 3px; right: 0px; text-align: right; font-size: large;}*/
+.block_name {margin-top: 3px; text-align: right; font-size: large;}
 
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
